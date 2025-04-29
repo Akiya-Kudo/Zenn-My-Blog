@@ -96,3 +96,16 @@ const ErrorBoundary = ErrorBoundaryModule as unknown as React.Component<
 - スクラッチで書いていくので、複雑にエラーハンドリングを実装していきたい場合にちょっとめんどくさい
 - 例えばでいうと、errorInfo ををどのように外部コンポーネントから参照できるようにするか
 - reset を外部から発火させたい場合には errorBoundary を Context 化して、hooks で state を切り替える実装が必要そうであったりなど
+
+### react-error-boundary
+
+#### めっちゃいい
+
+**めちゃいいポイント**
+
+https://qiita.com/kazukiiii/items/a08dbcf1a2d72b73267b
+
+::message
+注意点
+上記の記事だと react-error-boudnary を使用すると非同期・イベント内のエラーを自動でハンドリングしてくれそうな理解になるが、そういうわけではないので、独自で上記のような`useErrorHandler`なりを実装してハンドリングは必要
+:::
