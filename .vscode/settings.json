@@ -1,0 +1,29 @@
+{
+  "editor.tabSize": 2,
+  "prettier.ignorePath": ".gitignore",
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "always",
+    "source.organizeImports.biome": "always"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#8cd264",
+    "activityBar.activeBorder": "#ff6a6a",
+    "activityBar.background": "#6fbccf",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#f98181",
+    "activityBarBadge.foreground": "#15202b",
+    "sash.hoverBorder": "#69bed8",
+    "statusBar.background": "#74a6bd",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#7fceed",
+    "statusBarItem.remoteBackground": "#68a1b7",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#82aedd",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#4c9fcc",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  }
+}
